@@ -11,10 +11,10 @@
 :root {
 }
 
-body,
+/* body,
 * {
   font-family: Gilroy;
-}
+} */
 
 html {
   font-size: 62.5%;
@@ -22,7 +22,9 @@ html {
 
 :root {
   /* color-primary */
+
   --color-primary-text: rgba(22, 28, 45, 1);
+  --color-primary-text2: rgba(89, 95, 106);
   --color-primary-button: rgba(71, 59, 240, 1);
 
   /* color-secondary */
@@ -37,4 +39,111 @@ html {
   --color-success: rgb(0, 192, 115);
   --color-warning: rgb(255, 153, 0);
   --color-error: rgb(255, 71, 87);
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: 743px;
+  background-image: url(/assets/images/backgrond.png);
+  /* background-color: rgb(218, 199, 175); */
+}
+
+.navbar {
+  display: flex;
+  margin-left: 166px;
+  padding-top: 16px;
+  width: 1189px;
+  justify-content: space-between;
+  /* background-color: #fff; */
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+a {
+  color: var(--color-primary-text);
+}
+
+.navbar__menu--logo {
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.navbar__menu--pages {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.button__primary {
+  width: 209px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: white;
+  background-color: #473bf0;
+  border: none;
+  font-family: Gilroy;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  margin-left: 166px;
+  width: 1189px;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.content__description {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-self: center;
+  /* width: 541px; */
+  height: 386px;
+}
+
+.content__description--SmallTitle {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: var(--color-secondary-card-text);
+}
+
+.content__description--BigTitle {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 65px;
+  color: var(--color-primary-text);
+}
+
+.content__description--MoreDes {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 32px;
+  color: var(--color-primary-text2);
+}
+
+.button__secondary {
+  width: 220px;
+  height: 59px;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: white;
+  background-color: #473bf0;
+  border: none;
+  font-family: Gilroy;
+  border-radius: 8px;
+  cursor: pointer;
 }
