@@ -8,21 +8,12 @@
   text-decoration: none;
 }
 
-:root {
-}
-
-/* body,
-* {
-  font-family: Gilroy;
-} */
-
 html {
   font-size: 62.5%;
 }
 
 :root {
   /* color-primary */
-
   --color-primary-text: rgba(22, 28, 45, 1);
   --color-primary-text2: rgba(89, 95, 106);
   --color-primary-button: rgba(71, 59, 240, 1);
@@ -55,8 +46,8 @@ html {
   padding-top: 16px;
   width: 1189px;
   justify-content: space-between;
-  /* background-color: #fff; */
   align-items: center;
+  /* background-color: #fff; */
 }
 
 ul {
@@ -107,8 +98,8 @@ a {
   justify-content: space-between;
   flex-direction: column;
   align-self: center;
-  /* width: 541px; */
   height: 386px;
+  /* width: 541px; */
 }
 
 .content__description--SmallTitle {
