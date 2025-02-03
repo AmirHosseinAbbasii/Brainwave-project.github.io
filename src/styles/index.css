@@ -22,6 +22,7 @@ html {
   --color-secondary-900: rgba(255, 255, 255, 1);
   --color-secondary-card-text: rgba(246, 75, 75, 1);
   --color-secondary-700: rgba(104, 213, 133, 1);
+  --color-secondary-Job-title: rgb(91, 96, 108);
 
   /* color-neutral */
   --color-secondary-701: rgba(244, 247, 250, 1);
@@ -327,4 +328,53 @@ a {
   border: none;
   background-color: var(--color-secondary-card-text);
   color: var(--color-secondary-900);
+}
+
+.card-Comments {
+  width: 1108px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  margin-left: 206px;
+  margin-bottom: 20px;
+  box-shadow: 0px 6px 5px -5px #d3d2d2;
+}
+
+.Comments {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Comments__Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Content--text {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: var(--color-primary-text);
+}
+
+.Content--Specifications {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
+
+.Specifications--Author {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: var(--color-primary-text);
+}
+
+.Specifications--Job-title {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: var(--color-secondary-Job-title);
 }
