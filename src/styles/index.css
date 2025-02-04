@@ -378,3 +378,69 @@ a {
   font-size: 1.7rem;
   color: var(--color-secondary-Job-title);
 }
+
+.our-story {
+  display: flex;
+  flex-direction: row;
+  margin-left: 206px;
+  width: 1110px;
+  height: 883px;
+  background-color: bisque;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-section--text {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-section--text--title {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: var(--color-secondary-card-text);
+}
+
+.left-section--text--description {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  color: var(--color-primary-text);
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+
+.right-section--img {
+  display: flex;
+  flex-direction: row;
+  gap: 23%;
+}
+
+.img--left {
+}
+
+.img--right {
+  margin-top: 110px;
+}
+
+.right-section--text {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.9rem;
+  color: var(--color-secondary-Job-title);
+}
