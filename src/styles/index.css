@@ -444,3 +444,82 @@ a {
   line-height: 2.9rem;
   color: var(--color-secondary-Job-title);
 }
+
+.statistics {
+  width: 1074px;
+  height: 140px;
+  margin-left: 223px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.statistics__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.statistics__left--number {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 4.8rem;
+  text-align: center;
+  color: var(--color-primary-text);
+}
+
+.statistics__left--description {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: var(--color-secondary-Job-title);
+}
+
+.statistics__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.statistics__main--number {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 4.8rem;
+  text-align: center;
+  color: var(--color-primary-text);
+}
+
+.statistics__main--description {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: var(--color-secondary-Job-title);
+}
+
+.statistics__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.statistics__right--number {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 4.8rem;
+  text-align: center;
+  color: var(--color-primary-text);
+}
+
+.statistics__right--description {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: var(--color-secondary-Job-title);
+}
