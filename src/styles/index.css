@@ -523,3 +523,252 @@ a {
   text-align: center;
   color: var(--color-secondary-Job-title);
 }
+
+.Why-choose-us {
+  height: 1118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--color-secondary-701);
+}
+
+.choose-us {
+  display: flex;
+  flex-direction: column;
+  gap: 8%;
+}
+
+.choose-us__text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.choose-us__text--title {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-secondary-card-text);
+}
+
+.choose-us__text--description {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: var(--color-primary-text);
+}
+
+.choose-us__parts {
+  display: flex;
+  flex-direction: column;
+}
+
+.parts--top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+}
+
+.parts--top--left {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.top--left--text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.all__title {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 2.1rem;
+  color: var(--color-primary-text);
+}
+
+.all__description {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.9rem;
+  color: var(--color-secondary-Job-title);
+}
+
+.parts--top--right {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.top--right--text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.parts--down {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 5%;
+}
+
+.parts--down--left {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.down--left--text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.parts--down--right {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.down--right--text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.line {
+  margin-left: 210px;
+  width: 1111px;
+  height: 1px;
+  border-radius: 1px;
+  background-color: rgba(231, 233, 237, 1);
+}
+
+.launch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1111px;
+  height: 128px;
+  margin-left: 210px;
+}
+
+.launch__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.launch__text--title {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: var(--color-primary-text);
+}
+
+.launch__text--description {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 3.2rem;
+  color: var(--color-secondary-Job-title);
+}
+
+.launch__btn {
+  margin-top: 18px;
+}
+
+.our-works {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-works__text-top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.text-top--title {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-secondary-card-text);
+}
+
+.text-top--description {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: var(--color-primary-text);
+}
+
+.our-works__sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+}
+
+.sections--left {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.sections--left--top {
+  display: flex;
+  flex-direction: column;
+}
+
+.text--box {
+  display: flex;
+  flex-direction: column;
+}
+
+.title--box {
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--color-secondary-Job-title);
+}
+
+.description--box {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 60px;
+  margin-left: 30px;
+  color: var(--color-primary-text);
+}
+
+.text-down {
+  text-align: center;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 2.1rem;
+  color: var(--color-primary-button);
+}
+
+.img {
+  margin-bottom: 30px;
+}
