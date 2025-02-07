@@ -772,3 +772,59 @@ a {
 .img {
   margin-bottom: 30px;
 }
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  height: 635px;
+  background-image: url(/assets/images/BG.png);
+}
+
+.testimonial__title {
+  font-family: Gilroy;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-secondary-700);
+}
+
+.testimonial__description {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 3.2rem;
+  text-align: center;
+  color: var(--color-secondary-900);
+}
+
+.information--img {
+  text-align: center;
+}
+
+.information--name {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-align: center;
+  color: var(--color-secondary-900);
+}
+
+.information--job {
+  font-family: Gilroy;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--color-secondary-900);
+}
+
+.information--img {
+  margin-bottom: 15px;
+}
+
+.information--name {
+  margin-bottom: 5px;
+}
