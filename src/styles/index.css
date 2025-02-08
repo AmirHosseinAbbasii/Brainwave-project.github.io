@@ -784,7 +784,7 @@ a {
   justify-content: center;
   gap: 10%;
   height: 635px;
-  background-image: url(/assets/images/BG.png);
+  background-image: url("../../assets/images/BG.png");
 }
 
 .testimonial__title {
