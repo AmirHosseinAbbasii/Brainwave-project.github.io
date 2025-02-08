@@ -872,7 +872,7 @@ footer {
   font-weight: 400;
   font-size: 1.9rem;
   line-height: 3.2rem;
-  color: var(--color-secondary-900);
+  color: rgb(174, 176, 182);
 }
 
 .launch__btn--dark {
@@ -883,142 +883,59 @@ footer {
   width: 1111px;
   height: 1px;
   border-radius: 1px;
-  background-color: rgba(231, 233, 237, 1);
+  background-color: rgb(174, 176, 182);
 }
 
-.nav__dark {
-  display: flex;
-  justify-content: space-between;
+.footer__nav {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  row-gap: 2rem;
+  column-gap: 12rem;
 }
 
-.nav__dark1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.nav__dark1--logo {
+.nav--title--logo {
   font-family: Gilroy;
+  font-weight: 700;
   font-size: 2.8rem;
-  font-weight: 700;
   color: var(--color-secondary-900);
 }
 
-.nav__dark1--description {
+.nav--title--other {
+  margin-top: 13px;
   font-family: Gilroy;
-  font-size: 1.5rem;
   font-weight: 400;
-  color: var(--color-secondary-900);
+  font-size: 1.5rem;
+  color: rgb(174, 176, 182);
 }
 
-.nav__dark1--networks {
-  width: 142px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__dark2 {
-}
-
-.dark--title {
+.footer__nav--text--description {
   font-family: Gilroy;
-  font-size: 1.5rem;
   font-weight: 400;
-  color: var(--color-secondary-900);
+  font-size: 1.5rem;
+  color: rgb(174, 176, 182);
 }
-/* kkkkkkkkkkk*/
 
-footer {
-  background-color: #161c2d;
-  height: 750px;
+.footer__nav--text--social {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  gap: 8%;
 }
 
-.BG {
-  width: 1108px;
-  background-color: #161c2d;
+.footer__nav--text {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 1.5rem;
 }
 
-.line {
-  width: 1108px;
-  height: 1px;
-  background-color: #272b39;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-around;
-}
-
-.part2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.section-right {
-  display: flex;
-}
-
-.heading {
-  margin: 0;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 33.18px;
-  color: #ffffff;
-}
-
-.discription {
-  font-size: 15px;
+.footer__nav--text--other {
+  font-family: Gilroy;
   font-weight: 400;
-  line-height: 26px;
-  color: #ffffff;
+  font-size: 1.5rem;
+  color: var(--color-secondary-900);
 }
 
-.social-networks {
-  display: flex;
-  justify-content: space-evenly;
-  width: 142px;
-}
-
-.section-left {
+.logo-section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.a1 {
-  margin: 0;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 26px;
-  color: #ffffff;
-}
-
-.a2 {
-  margin: 0;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 20px;
-  color: #ffffff;
-}
-
-.bold1 {
-  font-weight: 700;
-  line-height: 44px;
-  font-size: 32px;
-  margin-top: 0;
-  margin-bottom: 25px;
-  color: #161c2d;
-}
-
-.unbold1 {
-  font-weight: 400;
-  font-size: 19px;
-  color: #161c2d;
-  line-height: 32px;
-  margin: 0;
 }
